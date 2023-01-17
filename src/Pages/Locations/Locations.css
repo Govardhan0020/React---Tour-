@@ -1,0 +1,32 @@
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height:65vh;
+    gap:20px;
+    padding: 20px;
+    width:100%;
+}
+.mapbutton{
+    background-color: rgb(9, 48, 190);
+    padding: 10px 25px;
+    border: none;color: white;
+    border-radius: 5px;
+}
+.main-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.marker{
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+.popup{
+height: 10px;
+font-weight: bold;
+}

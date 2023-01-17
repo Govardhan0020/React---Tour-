@@ -1,0 +1,52 @@
+.order {
+    background: url('https://media.tenor.com/6ZkJEn80W7kAAAAM/green-tick.gif'),
+      50%;
+    background-size: 100%;
+    width: 10rem;
+    height: 9rem;
+  }
+  h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+  }
+  .popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .pop{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    padding: 0px 50px;
+    width: 600px;
+    height: 390px;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0);
+    border-radius: 10px;
+  }
+  .Details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .closebtn {
+    transform: translate(355px, 25px);
+    cursor: pointer;
+  }
+  

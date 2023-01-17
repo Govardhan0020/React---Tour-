@@ -1,0 +1,176 @@
+ /* main div */
+
+body {
+  background-color: rgba(226, 226, 226, 0.5);
+}
+.main_view {
+  display: flex;
+  padding: 1% 10%;
+  position: relative;
+  top: 100px;
+}
+
+.viewMore {
+    display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 2%;
+  align-items: flex-start;
+  justify-content: center;
+}
+.img_div{
+  background-color: white;
+
+}
+.img_div:hover{
+  border: none;
+}
+.viewMore .img_div{
+  display: flex;
+  width: 700px;
+  height: 430px;
+  overflow: hidden;
+}
+.viewMore .img_div img {
+  height: 430px;
+  border: none;
+  background-color: white;
+}
+
+
+/* section2 */
+.viewMore .viewmap {
+  width: 100%; 
+ height: 100%;
+  filter: drop-shadow(5px 5px 2px rgba(0,0,0,.5));
+  background-color: white;
+}
+
+
+/* section1 */
+.viewMore .img_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.viewMore .content_div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  width: 700px;
+  filter: drop-shadow(5px 5px 2px rgba(0,0,0,.5));
+  background-color: white;
+}
+
+.viewMore .Crud_buttons {
+  display: flex;
+  gap: 20px;
+}
+.viewMore .Crud_buttons .Update,
+.Delete {
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.Update {
+  background-color: green;
+  cursor: pointer;
+}
+.Delete {
+  background-color: red;
+  cursor: pointer;
+}
+.viewMore .address {
+  font-size: 15px;
+}
+.viewMore .description {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 30px;
+}
+.loc p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+.loc img {
+  width: 40px;
+  border: none;
+  height: 40px;
+}
+.loc span a {
+  text-decoration: underline;
+  color: rgba(17, 17, 174, 0.884);
+
+}
+
+.viewMore .price {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* reviews */
+input[type='radio'] {
+  display: none;
+}
+.Star {
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+
+.stars img{
+  width: 50px;
+  height: 50px;
+  border: none;
+
+}
+.stars span{
+  display: flex;
+  align-items: center;
+}
+.stars .review-text{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 50px;
+}
+.reviews {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: white;
+} 
+.rating{
+  display: flex;
+  flex-direction: column;
+  padding:20px 50px;
+}
+.reviewbutton{
+  padding: 0px 50px;
+}
+.reviewbutton .reviewbtn{
+  background-color: rgb(1, 154, 1);
+  color: white;
+  padding: 5px 15px;
+  margin-top:10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+ .reviewbutton .deletebtn{
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  margin-top:10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+ }

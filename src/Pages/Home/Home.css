@@ -1,0 +1,51 @@
+.hero{
+    width: 100%;
+    height: 90%;
+    position: relative;
+  }
+  .hero video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  .heading {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    top: 0;
+    color: white;
+  }
+  .heading h1 {
+    font-size: 60px;
+  }
+  .heading .p1 {
+    font-size: 38px;
+    font-weight: 550;
+    color: greenyellow;
+  }
+  .heading .p2 {
+    font-size: 32px;
+  }
+  .heading .location {
+    padding: 15px 0px;
+  }
+  .heading .location a {
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 550;
+  }
+  .heading .location a:hover {
+    background-color: #fff;
+    color: red;
+    font-weight: 550;
+  }
+  

@@ -1,0 +1,98 @@
+
+.main-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    height: 90vh;
+  }
+  .main-form h1 {
+    color: red;
+  }
+  .main-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    /* background-color: rgb(205, 205, 205); */
+    width: 30%;
+    padding: 40px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  .main-form form .field {
+    width: 100%;
+  }
+  
+  .main-form label {
+    display: block;
+    font-size: 18px;
+    padding: 8px 0px;
+    font-weight: 600;
+  }
+  .main-form input {
+    outline: none;
+    border: 1.6px solid black;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  input:hover {
+    border: 2px solid red;
+  }
+  input:focus {
+    background-color: white;
+    color: rgb(53, 53, 53);
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .main-form button {
+    border: none;
+    background-color: rgba(83, 175, 2);
+    color: white;
+    width: 100%;
+    padding: 10px 165px;
+    border-radius: 7px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .main-form form button:hover,
+  .submit-btn a:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+  @media (max-width: 600px) {
+    .main-form form {
+      width: 65%;
+    }
+  }
+  .submit-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .submit-btn a {
+    background-color: rgba(240, 28, 28, 0.85);
+    padding: 11px 0px;
+    border-radius: 8px;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+  }
+  input::placeholder {
+    opacity: 0.4;
+  }
+  .loginimage img{
+    width:700px;
+    border: none;
+    height: 550px;
+}

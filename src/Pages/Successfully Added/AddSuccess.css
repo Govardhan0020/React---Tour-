@@ -1,0 +1,47 @@
+.success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width:50%;
+    height:60vh;
+    gap:35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(19, 19, 19,.5);
+    margin:4% 24%;
+    color: rgb(28, 28, 126);
+    position: relative;
+    top: 100px;
+    
+}
+.success img{
+    width:75px;
+}
+.success h2{
+    font-size: 40px;
+    line-height: 20px;
+   
+}
+
+.order {
+    background: url('https://thumbs.gfycat.com/VariablePoliticalBurro-max-1mb.gif'),
+      50%;
+    background-size: 100%;
+    width: 11rem;
+    height: 11rem;
+    
+  }
+/* .arrow{
+    padding:10px 0px 0px 70px;
+}
+.arrow img{
+    width:35px;
+} */
+.back{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+
+}
